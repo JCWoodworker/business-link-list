@@ -5,6 +5,13 @@
 body {
   text-align: center;
   font-family: base.$ubuntu;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+	line-height: 1.5;
+	font-weight: 400;
+	background-color: base.$main-background;
 }
 
 a {

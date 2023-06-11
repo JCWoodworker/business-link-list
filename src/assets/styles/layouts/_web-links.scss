@@ -1,7 +1,7 @@
 @use "../base/" as base;
 
 .web-links-container {
-  color: white;
+  color: base.$main-font-color;
   margin: 0.5rem;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -11,12 +11,12 @@
   margin: 1rem;
   padding: 0.4rem;
   font-size: 1rem;
-  border: 2px solid base.$link-color;
+  border: 2px solid base.$main-border-color;
   background-color: base.$link-background;
   border-radius: 0.5rem;
   &:hover {
     background-color: base.$link-hover-background;
-    border: 2px solid base.$link-hover-color;
+    border: 2px solid base.$main-border-color;
     color: base.$link-hover-color;
   }
 }
