@@ -1,0 +1,14 @@
+@use './base' as base;
+@use './components' as components;
+@use './layouts' as layout;
+
+body {
+  text-align: center;
+  font-family: base.$ubuntu;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+

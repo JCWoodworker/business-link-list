@@ -1,0 +1,13 @@
+@use '../base/' as base;
+
+.social-links-container {
+  color: white;
+  margin: 0.5rem;
+  padding: 1rem;
+} 
+
+.social-link {
+  &:hover {
+    color: rgb(160, 255, 176);
+  }
+}

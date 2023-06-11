@@ -1,0 +1,21 @@
+@use "../base/" as base;
+
+.web-links-container {
+  color: white;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+} 
+
+.web-link {
+  margin: 1rem;
+  padding: 0.4rem;
+  font-size: 1.5rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  &:hover {
+    background-color: rgb(160, 255, 176);
+    border: 2px solid rgb(160, 255, 176);
+    color: black;
+  }
+}
