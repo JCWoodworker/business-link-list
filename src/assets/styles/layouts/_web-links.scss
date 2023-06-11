@@ -11,13 +11,13 @@
   margin: 1rem;
   padding: 0.4rem;
   font-size: 1rem;
-  border: 2px solid rgb(255, 255, 255);
-  background-color: rgb(38, 69, 53);
+  border: 2px solid base.$link-color;
+  background-color: base.$link-background;
   border-radius: 0.5rem;
   &:hover {
-    background-color: rgb(236, 211, 181);
-    border: 2px solid rgb(236, 211, 181);
-    color: rgb(38, 69, 53);
+    background-color: base.$link-hover-background;
+    border: 2px solid base.$link-hover-color;
+    color: base.$link-hover-color;
   }
 }
 
