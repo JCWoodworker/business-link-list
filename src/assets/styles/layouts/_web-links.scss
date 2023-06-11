@@ -10,7 +10,7 @@
 .web-link {
   margin: 1rem;
   padding: 0.4rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(38, 69, 53);
   border-radius: 0.5rem;
@@ -18,5 +18,16 @@
     background-color: rgb(236, 211, 181);
     border: 2px solid rgb(236, 211, 181);
     color: rgb(38, 69, 53);
+  }
+}
+
+@media (min-width: 1000px) {
+  .web-link {
+    width: 500px;
+    height: 80px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
