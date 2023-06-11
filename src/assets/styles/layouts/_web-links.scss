@@ -12,9 +12,11 @@
   padding: 0.4rem;
   font-size: 1.5rem;
   border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(38, 69, 53);
   border-radius: 0.5rem;
   &:hover {
-    background-color: rgb(38, 69, 53);
-    border: 2px solid rgb(226, 203, 215);
+    background-color: rgb(236, 211, 181);
+    border: 2px solid rgb(236, 211, 181);
+    color: rgb(38, 69, 53);
   }
 }
