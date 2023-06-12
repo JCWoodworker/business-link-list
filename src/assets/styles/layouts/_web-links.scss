@@ -1,7 +1,6 @@
 @use "../base/" as base;
 
 .web-links-container {
-  color: base.$main-font-color;
   margin: 0.5rem;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -21,10 +20,11 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
   .web-link {
     width: 500px;
     height: 80px;
+    padding: 0.25rem;
     font-size: 1.3rem;
     display: flex;
     justify-content: center;

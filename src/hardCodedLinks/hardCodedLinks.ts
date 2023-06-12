@@ -1,7 +1,7 @@
 import {
 	HardCodedWebLinks,
 	HardCodedSocialMediaLinks,
-	BusinessLogo,
+	BusinessNameAndLogo,
 } from "../types/interfaces"
 
 export const hardCodedLinks: HardCodedWebLinks[] = [
@@ -36,6 +36,7 @@ export const hardCodedSocialMediaLinks: HardCodedSocialMediaLinks[] = [
 	},
 ]
 
-export const businessLogo: BusinessLogo = {
-	url: "https://i.imgur.com/Qlq1hnH.jpg",
+export const businessNameAndLogo: BusinessNameAndLogo = {
+	businessName: "RI Local Woodworks",
+	logoUrl: "https://i.imgur.com/Qlq1hnH.jpg",
 }

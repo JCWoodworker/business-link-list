@@ -8,6 +8,7 @@ export interface HardCodedSocialMediaLinks {
   bootstrapIconClassName: string
 }
 
-export interface BusinessLogo {
-  url: string
+export interface BusinessNameAndLogo {
+  businessName: string
+  logoUrl: string
 }
