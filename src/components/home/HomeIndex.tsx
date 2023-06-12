@@ -11,7 +11,7 @@ const HomeIndex: React.FC = () => {
 				<h4>Create just one QR code for your business and send it here!</h4>
 				<div className="showcase-customer">
 					<h4>Check out our first link-lister: </h4>
-					<div className="RILW">
+					<div className="customer-to-showcase">
 						<Link to="rilocalwoodworks">
 							<h4>RI Local Woodworks</h4>
 						</Link>

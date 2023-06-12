@@ -2,6 +2,7 @@ export interface HardCodedWebLinks {
   name: string
   url: string
 }
+
 export interface HardCodedSocialMediaLinks {
   name: string
   url: string

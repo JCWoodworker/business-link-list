@@ -8,10 +8,11 @@
   margin: 4rem;
 }
 
-.RILW {
+.customer-to-showcase {
   color: base.$link-color;
   background-color: base.$link-background;
   border: 1px solid base.$link-color;
+  border-radius: 0.5rem;;
   margin: 1rem;
   padding: 1rem;
   &:hover {
