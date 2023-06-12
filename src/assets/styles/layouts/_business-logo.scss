@@ -8,3 +8,9 @@
   max-height: 220px;
   width: auto;
 }
+
+@media (max-width: 768px) {
+  .business-logo-image {
+    max-height: 150px;
+  }
+}
