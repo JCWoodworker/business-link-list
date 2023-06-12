@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import HomeIndex from "./components/home/HomeIndex"
 import BusinessShowIndex from "./components/business-show/BusinessShowIndex"
+import AdminIndex from "./components/admin-controls/adminIndex"
 
 const App: React.FC = () => {
 	return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
 			<Router>
 				<Routes>
 					<Route path="/" element={<HomeIndex />} />
+					<Route path="/user" element={<AdminIndex />} />
 					<Route path="/rilocalwoodworks" element={<BusinessShowIndex />} />
 				</Routes>
 			</Router>
