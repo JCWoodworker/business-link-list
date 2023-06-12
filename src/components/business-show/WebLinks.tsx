@@ -1,6 +1,6 @@
 import React from "react"
 import { Row } from "react-bootstrap"
-import { hardCodedLinks } from "../hardCodedLinks/hardCodedLinks"
+import { hardCodedLinks } from "../../hardCodedLinks/hardCodedLinks"
 
 const LinkList: React.FC = () => {
 	return (

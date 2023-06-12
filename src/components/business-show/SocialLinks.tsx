@@ -1,8 +1,8 @@
 import React from "react"
 import { Row, Col } from "react-bootstrap"
-import { hardCodedSocialMediaLinks } from "../hardCodedLinks/hardCodedLinks"
+import { hardCodedSocialMediaLinks } from "../../hardCodedLinks/hardCodedLinks"
 
-import { getIcon } from "../utilities/getIcon"
+import { getIcon } from "../../utilities/getIcon"
 
 const LinkList: React.FC = () => {
 	return (

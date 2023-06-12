@@ -1,17 +1,20 @@
 import React from "react"
 import "./assets/styles/main.scss"
 import { Container } from "react-bootstrap"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-import BusinessNameAndLogo from "./components/BusinessNameAndLogo"
-import SocialLinks from "./components/SocialLinks"
-import WebLinks from "./components/WebLinks"
+import HomeIndex from "./components/home/HomeIndex"
+import BusinessShowIndex from "./components/business-show/BusinessShowIndex"
 
 const App: React.FC = () => {
 	return (
 		<Container className="app-container" fluid="md">
-			<BusinessNameAndLogo />
-			<SocialLinks />
-			<WebLinks />
+			<Router>
+				<Routes>
+					<Route path="/" element={<HomeIndex />} />
+					<Route path="/rilocalwoodworks" element={<BusinessShowIndex />} />
+				</Routes>
+			</Router>
 		</Container>
 	)
 }

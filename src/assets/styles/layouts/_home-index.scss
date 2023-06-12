@@ -1,0 +1,13 @@
+@use '../base' as base;
+
+.RILW {
+  color: base.$link-color;
+  background-color: base.$link-background;
+  border: 1px solid base.$link-color;
+  margin: 1rem;
+  padding: 1rem;
+  &:hover {
+    color: base.$link-hover-color;
+    background-color: base.$link-hover-background;
+  }
+}
