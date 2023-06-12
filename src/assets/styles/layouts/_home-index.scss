@@ -1,5 +1,13 @@
 @use '../base' as base;
 
+.home-index-title {
+  margin: 0.5rem;
+}
+
+.showcase-customer {
+  margin: 4rem;
+}
+
 .RILW {
   color: base.$link-color;
   background-color: base.$link-background;
