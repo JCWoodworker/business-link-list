@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import HomeIndex from "./components/home/HomeIndex"
 import BusinessShowIndex from "./components/business-show/BusinessShowIndex"
-import AdminIndex from "./components/admin-controls/adminIndex"
+import AdminIndex from "./components/admin-controls/AdminIndex"
 
 const App: React.FC = () => {
 	return (
