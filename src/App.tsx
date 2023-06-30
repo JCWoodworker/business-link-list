@@ -12,9 +12,10 @@ const App: React.FC = () => {
 		<Container className="app-container" fluid="md">
 			<Router>
 				<Routes>
-					<Route path="/" element={<HomeIndex />} />
+					<Route path="/" element={<BusinessShowIndex />} />
+					{/* <Route path="/" element={<HomeIndex />} />
 					<Route path="/user" element={<AdminIndex />} />
-					<Route path="/rilocalwoodworks" element={<BusinessShowIndex />} />
+					<Route path="/rilocalwoodworks" element={<BusinessShowIndex />} /> */}
 				</Routes>
 			</Router>
 		</Container>
