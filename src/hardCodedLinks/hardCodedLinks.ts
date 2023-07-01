@@ -6,9 +6,13 @@ import {
 
 export const hardCodedLinks: HardCodedWebLinks[] = [
 	{
-		name: "Get 20% off your first online purchase!",
+		name: 'Win a free cutting board today!!\nField Of Artisans @ The General\'s Market',
 		url: "http://www.rilocalwoodworks.com/mailinglist",
 	},
+	// {
+	// 	name: "Get 20% off your first online purchase!",
+	// 	url: "http://www.rilocalwoodworks.com/mailinglist",
+	// },
 	{
 		name: "Shop the online store",
 		url: "http://www.rilocalwoodworks.com/shop",
