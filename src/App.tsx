@@ -3,19 +3,18 @@ import "./assets/styles/main.scss"
 import { Container } from "react-bootstrap"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-// import HomeIndex from "./components/home/HomeIndex"
+import HomeIndex from "./components/home/HomeIndex"
 import BusinessShowIndex from "./components/business-show/BusinessShowIndex"
-// import AdminIndex from "./components/admin-controls/AdminIndex"
+import AdminIndex from "./components/admin-controls/AdminIndex"
 
 const App: React.FC = () => {
 	return (
 		<Container className="app-container" fluid="md">
 			<Router>
 				<Routes>
-					<Route path="/" element={<BusinessShowIndex />} />
-					{/* <Route path="/" element={<HomeIndex />} />
+					<Route path="/" element={<HomeIndex />} />
 					<Route path="/user" element={<AdminIndex />} />
-					<Route path="/rilocalwoodworks" element={<BusinessShowIndex />} /> */}
+					<Route path="/rilocalwoodworks" element={<BusinessShowIndex />} />
 				</Routes>
 			</Router>
 		</Container>
