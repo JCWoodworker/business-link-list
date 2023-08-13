@@ -5,10 +5,10 @@ import {
 } from "../types/interfaces"
 
 export const hardCodedLinks: HardCodedWebLinks[] = [
-	// {
-	// 	name: 'Win a free cutting board today!!\nField Of Artisans @ The General\'s Market',
-	// 	url: "http://www.rilocalwoodworks.com/mailinglist",
-	// },
+	{
+		name: 'Win a free cutting board today!!\nField Of Artisans @ The General\'s Market',
+		url: "http://www.rilocalwoodworks.com/mailinglist",
+	},
 	// {
 	// 	name: "Get 20% off your first online purchase!",
 	// 	url: "http://www.rilocalwoodworks.com/mailinglist",
