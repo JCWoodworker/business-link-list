@@ -13,11 +13,14 @@
   border: 2px solid base.$main-border-color;
   background-color: base.$link-background;
   border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
   &:hover {
     background-color: base.$link-hover-background;
     border: 2px solid base.$main-border-color;
     color: base.$link-hover-color;
-  }
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+letter-spacing: 2px;  }
 }
 
 .individual-web-link {

@@ -1,12 +1,12 @@
 import {
 	HardCodedWebLinks,
 	HardCodedSocialMediaLinks,
-	BusinessNameAndLogo,
+	BusinessNameAndLogo,                                                                                         
 } from "../types/interfaces"
 
 export const hardCodedLinks: HardCodedWebLinks[] = [
 	{
-		name: 'Win a free cutting board today!!\nField Of Artisans @ The General\'s Market',
+		name: 'The General\'s Market\nFree Cutting Board Giveaway!!',
 		url: "http://www.rilocalwoodworks.com/mailinglist",
 	},
 	// {
@@ -21,7 +21,7 @@ export const hardCodedLinks: HardCodedWebLinks[] = [
 		name: "Shop Our Online Store",
 		url: "http://www.rilocalwoodworks.com/shop",
 	},
-	{
+	{ 
 		name: "Portfolio",
 		url: "https://rilocalwoodworks.com/commissioned-pieces",
 	},
