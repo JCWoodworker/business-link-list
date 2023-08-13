@@ -14,7 +14,11 @@ export const hardCodedLinks: HardCodedWebLinks[] = [
 	// 	url: "http://www.rilocalwoodworks.com/mailinglist",
 	// },
 	{
-		name: "Shop the online store",
+		name: "Contact Me",
+		url: "https://rilocalwoodworks.com/contact",
+	},
+	{
+		name: "Shop Our Online Store",
 		url: "http://www.rilocalwoodworks.com/shop",
 	},
 	{
@@ -22,13 +26,13 @@ export const hardCodedLinks: HardCodedWebLinks[] = [
 		url: "https://rilocalwoodworks.com/commissioned-pieces",
 	},
 	{
-		name: "Contact",
-		url: "https://rilocalwoodworks.com/contact",
-	},
-	{
-		name: "Purchase a gift card",
+		name: "Gift Cards",
 		url: "https://rilocalwoodworks.com/shop/p/ck1zagyrp2jcrcrgovnt07tjqkaewj",
 	},
+	{
+		name: "Walrus Oil®️ Cutting Board Oil",
+		url: "https://rilocalwoodworks.com/walrus-oil",
+	}
 ]
 
 export const hardCodedSocialMediaLinks: HardCodedSocialMediaLinks[] = [

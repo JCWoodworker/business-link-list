@@ -1,4 +1,5 @@
-$main-background: rgb(36, 36, 36);
+// $main-background: rgb(36, 36, 36);
+$main-background: rgb(139, 69, 19);
 $container-background: rgb(255, 255, 255);
 $main-font-color: rgb(255, 255, 255);
 $main-border-color: rgb(255, 255, 255);
@@ -9,3 +10,6 @@ $link-hover-background: rgb(255, 255, 255);
 $link-hover-color: rgb(38, 69, 53);
 $icon-hover-color: rgb(175, 175, 175);
 
+$complementary-green: rgb(38, 69, 53);
+$complementary-brown: rgb(139, 69, 19);
+$gradient-background: linear-gradient(to bottom right, $complementary-green, $complementary-brown);
