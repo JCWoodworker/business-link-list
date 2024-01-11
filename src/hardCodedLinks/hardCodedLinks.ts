@@ -14,7 +14,7 @@ export const hardCodedLinks: HardCodedWebLinks[] = [
 	// 	url: "http://www.rilocalwoodworks.com/mailinglist",
 	// },
 	{
-		name: "Contact Me",
+		name: "Email Me",
 		url: "https://rilocalwoodworks.com/contact",
 	},
 	{
