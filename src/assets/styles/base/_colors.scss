@@ -4,12 +4,16 @@ $container-background: rgb(255, 255, 255);
 $main-font-color: rgb(255, 255, 255);
 $main-border-color: rgb(160, 160, 160);
 
-$link-background: rgb(24, 48, 36);
+$link-background: rgb(31, 32, 31);
 $link-color: rgb(255, 255, 255);
 $link-hover-background: rgb(160, 160, 160);
 $link-hover-color: rgb(24, 48, 36);
 $icon-hover-color: rgb(160, 160, 160);
 
-$complementary-green: rgb(38, 69, 53);
-$complementary-brown: rgb(139, 69, 19);
-$gradient-background: linear-gradient(to bottom right, $complementary-green, $complementary-brown);
+// $complementary-green: rgb(38, 69, 53);
+// $complementary-brown: rgb(139, 69, 19);
+// $gradient-background: linear-gradient(to bottom right, $complementary-green, $complementary-brown);
+
+$complementary-black: rgb(13, 13, 13);
+$complementary-green: rgb(0, 118, 71);
+$gradient-background: linear-gradient(to bottom right, $complementary-black, $complementary-green);
