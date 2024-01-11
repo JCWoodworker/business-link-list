@@ -5,10 +5,10 @@ import {
 } from "../types/interfaces"
 
 export const hardCodedLinks: HardCodedWebLinks[] = [
-	{
-		name: 'The General\'s Market\nFree Cutting Board Giveaway!!',
-		url: "http://www.rilocalwoodworks.com/mailinglist",
-	},
+	// {
+	// 	name: 'The General\'s Market\nFree Cutting Board Giveaway!!',
+	// 	url: "http://www.rilocalwoodworks.com/mailinglist",
+	// },
 	// {
 	// 	name: "Get 20% off your first online purchase!",
 	// 	url: "http://www.rilocalwoodworks.com/mailinglist",
@@ -22,17 +22,17 @@ export const hardCodedLinks: HardCodedWebLinks[] = [
 		url: "http://www.rilocalwoodworks.com/shop",
 	},
 	{ 
-		name: "Portfolio",
+		name: "See What I've made",
 		url: "https://rilocalwoodworks.com/commissioned-pieces",
 	},
 	{
 		name: "Gift Cards",
 		url: "https://rilocalwoodworks.com/shop/p/ck1zagyrp2jcrcrgovnt07tjqkaewj",
 	},
-	{
-		name: "Walrus Oil®️ Cutting Board Oil",
-		url: "https://rilocalwoodworks.com/walrus-oil",
-	}
+	// {
+	// 	name: "Walrus Oil®️ Cutting Board Oil",
+	// 	url: "https://rilocalwoodworks.com/walrus-oil",
+	// }
 ]
 
 export const hardCodedSocialMediaLinks: HardCodedSocialMediaLinks[] = [
