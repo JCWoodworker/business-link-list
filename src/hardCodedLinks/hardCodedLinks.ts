@@ -28,7 +28,7 @@ export const hardCodedLinks: HardCodedWebLinks[] = [
 	{
 		name: "Gift Cards",
 		url: "https://rilocalwoodworks.com/shop/p/ck1zagyrp2jcrcrgovnt07tjqkaewj",
-	},
+	}
 	// {
 	// 	name: "Walrus Oil®️ Cutting Board Oil",
 	// 	url: "https://rilocalwoodworks.com/walrus-oil",

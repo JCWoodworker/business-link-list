@@ -5,6 +5,7 @@ import { hardCodedLinks } from "../../hardCodedLinks/hardCodedLinks"
 const LinkList: React.FC = () => {
 	return (
 		<div className="web-links-container">
+			<p>Cell: 401-484-0848</p>
 			{hardCodedLinks.map((link) => {
 				return (
 					<Row className="web-link">
