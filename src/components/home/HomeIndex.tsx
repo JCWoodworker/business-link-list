@@ -1,7 +1,27 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
+import axios from "axios"
 
 const HomeIndex: React.FC = () => {
+	const [message, setMessage] = useState("")
+
+	// The following GET request us just for testing the new backend ...
+	const getMessage = async () => {
+		try {
+			const response = await axios.get(
+				"http://localhost:3000/api/v1/subapps/bizlinksfree"
+			)
+			setMessage(response.data.message)
+		} catch (error) {
+			console.log(error)
+		}
+	}
+
+	useEffect(() => {
+		getMessage()
+	}, [])
+	// END OF TESTING NEW ENDPOINT
+
 	return (
 		<>
 			<div className="home-index-title">
@@ -19,6 +39,9 @@ const HomeIndex: React.FC = () => {
 				</div>
 			</div>
 			<h4>Soon you'll be able to sign up too ... Thanks for your patience!</h4>
+			{/* BEGIN TEST CODE */}
+			<p>{`Here's a message: ${message}`}</p>
+			{/* END OF TEST CODE */}
 		</>
 	)
 }
