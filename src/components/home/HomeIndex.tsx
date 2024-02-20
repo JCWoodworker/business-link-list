@@ -7,10 +7,10 @@ const HomeIndex: React.FC = () => {
 
 	// The following GET request us just for testing the new backend ...
 	const getMessage = async () => {
-		const backendUrl = import.meta.env.VITE_BACKEND_URL_DEV
+		const backendUrl = import.meta.env.VITE_BACKEND_URL_PREPROD
 		try {
 			const response = await axios.get(
-				`${backendUrl}/subapps/bizlinksfree`
+				`${backendUrl}`
 			)
 			setMessage(response.data.message)
 		} catch (error) {
