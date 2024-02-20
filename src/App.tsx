@@ -14,7 +14,7 @@ const App: React.FC = () => {
 				<Routes>
 					<Route path="/" element={<HomeIndex />} />
 					<Route path="/user" element={<AdminIndex />} />
-					<Route path="/rilocalwoodworks" element={<BusinessShowIndex />} />
+					<Route path="/:id" element={<BusinessShowIndex />} />
 				</Routes>
 			</Router>
 		</Container>
