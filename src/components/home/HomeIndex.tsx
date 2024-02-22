@@ -7,10 +7,11 @@ const HomeIndex: React.FC = () => {
 
 	// The following GET request us just for testing the new backend ...
 	const getMessage = async () => {
-		const backendUrl = import.meta.env.VITE_BACKEND_URL_PREPROD
+		// const backendUrl = import.meta.env.VITE_BACKEND_URL_PREPROD
+		const backendUrl = import.meta.env.VITE_BACKEND_URL_DEV
 		try {
 			const response = await axios.get(
-				`${backendUrl}`
+				`${backendUrl}/subapps/bizlinksfree`
 			)
 			setMessage(response.data.message)
 		} catch (error) {
@@ -26,10 +27,10 @@ const HomeIndex: React.FC = () => {
 	return (
 		<>
 			<div className="home-index-title">
-				<h1>Welcome to the link list app for your business!</h1>
+				<h1>Welcome to your FREE link list app!</h1>
 			</div>
 			<div>
-				<h4>Create just one QR code for your business and send it here!</h4>
+				<h4>Create just one QR code and send your contacts HERE!</h4>
 				<div className="showcase-customer">
 					<h4>Check out our first link-lister: </h4>
 					<div className="customer-to-showcase">
