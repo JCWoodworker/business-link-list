@@ -13,7 +13,7 @@ const LinkList: React.FC = () => {
 						`${link.bootstrapIconClassName} social-media-icon`
 					)
 					return (
-						<Col className="social-link">
+						<Col className="social-link" key={link.url}>
 							<a href={link.url} target="_blank">
 								{socialIcon}
 							</a>

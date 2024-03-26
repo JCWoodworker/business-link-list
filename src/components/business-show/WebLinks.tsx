@@ -8,7 +8,7 @@ const LinkList: React.FC = () => {
 			<p>Cell: 401-484-0848</p>
 			{hardCodedLinks.map((link) => {
 				return (
-					<Row className="web-link">
+					<Row className="web-link" key={link.url}>
 						<a href={link.url} target="_blank" className="individual-web-link">{link.name}</a>
 					</Row>
 				)
