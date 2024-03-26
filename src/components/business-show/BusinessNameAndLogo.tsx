@@ -1,6 +1,5 @@
 import React from "react"
 import { Row, Col, Image } from "react-bootstrap"
-
 import { businessNameAndLogo } from "../../hardCodedLinks/hardCodedLinks"
 
 const BusinessNameAndLogo: React.FC = () => {
