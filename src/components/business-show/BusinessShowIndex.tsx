@@ -9,17 +9,24 @@ const BusinessShowIndex: React.FC = () => {
 	const { id } = useParams()
 	let view = null
 
-	if (typeof id !== "string" || id !== "rilocalwoodworks") {
-		view = <NotFound />
+	const redirectToggle = import.meta.env.VITE_TOGGLE_REDIRECT
+
+	if (redirectToggle === "true") {
+		window.location.href = "https://www.rilocalwoodworks.com"
 	} else {
-		view = (
-			<>
-				<BusinessNameAndLogo />
-				<SocialLinks />
-				<WebLinks />
-			</>
-		)
+		if (id !== "rilocalwoodworks") {
+			view = <NotFound />
+		} else {
+			view = (
+				<>
+					<BusinessNameAndLogo />
+					<SocialLinks />
+					<WebLinks />
+				</>
+			)
+		}
 	}
+
 	return <>{view}</>
 }
 
